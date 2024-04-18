@@ -43,7 +43,7 @@ const Project: FC<Props> = ({
         alt={title}
         width={500}
         height={500}
-        className="h-[50vh] min-h-[400px] w-full overflow-hidden rounded-b-md object-cover object-center grayscale-[50%] group-hover:grayscale-0"
+        className="h-[30vh] min-h-[400px] w-full overflow-hidden rounded-b-md object-cover object-center grayscale-[50%] group-hover:grayscale-0 xs:h-[50vh]"
       />
       <div className="absolute left-0 top-[88px] z-0 h-full w-full rounded-lg bg-purple-900 opacity-20 transition-all duration-500 group-hover:opacity-0"></div>
       <div className="absolute -bottom-[9.9rem] border-t-1 border-zinc-200 border-opacity-15 bg-dark-purple bg-opacity-70 p-4 transition-all duration-500 hover:bottom-0">

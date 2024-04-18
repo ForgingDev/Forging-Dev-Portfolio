@@ -24,7 +24,7 @@ const Knowledge = () => {
       <h3 className="mx-auto mb-12 max-w-lg text-center text-3xl font-bold leading-snug">
         Foundational Values: Our Guiding Principles and Beliefs.
       </h3>
-      <div className="grid grid-cols-2 justify-items-center gap-y-20 md:grid-cols-4">
+      <div className="grid justify-items-center gap-y-20 xs:grid-cols-2 md:grid-cols-4">
         <KnowledgeItem icon={<FaAward />} title="Quality" />
         <KnowledgeItem icon={<FaBitcoin />} title="Innovation" />
         <KnowledgeItem icon={<FaLockOpen />} title="Transparency" />

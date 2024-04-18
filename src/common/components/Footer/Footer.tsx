@@ -5,9 +5,9 @@ import FooterUnder from "./FooterUnder";
 const Footer = () => {
   return (
     <div className="w-screen border-t-1 border-zinc-500 border-opacity-25">
-      <div className="container mx-auto flex max-w-screen-xl items-center px-4 py-12">
+      <div className="container mx-auto flex max-w-screen-xl flex-wrap items-center gap-y-6 px-4 py-12 xs:flex-nowrap xs:gap-y-0">
         <FooterLogo />
-        <div className="flex flex-1 justify-evenly">
+        <div className="flex flex-1 justify-evenly gap-x-4 xs:gap-x-0">
           <FooterSection
             links={[
               {
