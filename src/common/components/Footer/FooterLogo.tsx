@@ -4,9 +4,9 @@ import Logo from "../Logo";
 
 const FooterLogo = () => {
   return (
-    <div className="flex flex-col gap-y-6 xs:gap-y-4 lg:w-2/5">
+    <div className="flex flex-col gap-y-4 lg:w-2/5">
       <Logo />
-      <p className="font-medium text-zinc-400">
+      <p className="text-sm font-medium text-zinc-400 xs:text-base">
         Transforming Ideas into Digital Excellence. Elevate your online presence
         with our innovative solutions and strategic digital services.
       </p>

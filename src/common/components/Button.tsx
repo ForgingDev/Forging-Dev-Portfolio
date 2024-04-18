@@ -19,7 +19,7 @@ const Button: FC<Props> = ({
       disabled={disabled}
       type={type}
       className={cn(
-        "rounded-full bg-gradient-to-r from-primary via-secondary to-extra px-4 py-1.5 text-sm uppercase tracking-widest shadow shadow-secondary transition-all hover:scale-105 active:scale-95 sm:px-6 sm:py-2",
+        "rounded-full bg-gradient-to-r from-primary via-secondary to-extra px-2 py-1 text-sm uppercase tracking-widest shadow shadow-secondary transition-all hover:scale-105 active:scale-95 xs:px-4 xs:py-1.5 sm:px-6 sm:py-2",
         className,
         size === "lg" ? "py-2 sm:py-3" : "",
         size === "sm" ? "px-4 py-1.5" : "",

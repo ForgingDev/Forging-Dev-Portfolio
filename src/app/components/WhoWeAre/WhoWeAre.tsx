@@ -5,7 +5,7 @@ const WhoWeAre = () => {
   return (
     <div
       id="about-us"
-      className="grid grid-cols-1 items-center gap-12 md:grid-cols-2"
+      className="grid grid-cols-1 items-center gap-6 xs:gap-12 md:grid-cols-2"
     >
       <WhoWeAreImage />
       <WhoWeAreInfo />

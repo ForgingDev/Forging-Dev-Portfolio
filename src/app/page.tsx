@@ -9,7 +9,7 @@ import WhoWeAre from "./components/WhoWeAre/WhoWeAre";
 
 const Home = () => {
   return (
-    <div className="flex flex-col gap-y-24">
+    <div className="flex flex-col gap-y-14 xs:gap-y-24">
       <Hero />
       <Knowledge />
       <WhoWeAre />

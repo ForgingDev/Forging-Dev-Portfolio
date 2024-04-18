@@ -6,8 +6,8 @@ type Props = {
 };
 const KnowledgeItem: FC<Props> = ({ icon, title }) => {
   return (
-    <div className="flex cursor-default items-center text-center text-2xl font-medium opacity-50 transition-all hover:opacity-100">
-      <span className="mr-1 text-3xl">{icon}</span>
+    <div className="flex cursor-default items-center text-center text-lg font-medium opacity-50 transition-all hover:opacity-100 xs:text-2xl">
+      <span className="mr-1 text-xl xs:text-3xl">{icon}</span>
       <span>{title}</span>
     </div>
   );

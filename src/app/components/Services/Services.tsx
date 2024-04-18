@@ -8,7 +8,7 @@ const Services = () => {
         <h4 className="mb-4 text-sm font-bold uppercase text-secondary">
           What we offer
         </h4>
-        <h3 className="mx-auto mb-8 max-w-2xl text-4xl font-semibold">
+        <h3 className="mx-auto mb-8 max-w-2xl text-2xl font-semibold xs:text-4xl">
           Where Strategy Meets Digital, Your Story Begins with Project Valhalla.
         </h3>
       </div>

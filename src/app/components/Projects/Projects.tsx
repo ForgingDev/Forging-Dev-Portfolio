@@ -8,7 +8,7 @@ const Projects = () => {
         <h4 className="mb-4 text-sm font-bold uppercase text-secondary">
           Featured Project
         </h4>
-        <h3 className="mx-auto mb-10 max-w-2xl text-4xl font-semibold">
+        <h3 className="mx-auto mb-10 max-w-2xl text-2xl font-semibold xs:text-4xl">
           Unleashing the Power of Innovation and Creativity.
         </h3>
       </div>

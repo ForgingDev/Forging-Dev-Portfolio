@@ -18,7 +18,7 @@ const OurValueCard: FC<Props> = ({
       className={cn("flex flex-col gap-y-4 rounded-lg p-6 shadow-sm", color)}
     >
       <h4 className="text-sm font-bold uppercase">{subtitle}</h4>
-      <h3 className="text-2xl">{title}</h3>
+      <h3 className="text-xl xs:text-2xl">{title}</h3>
       <p>{description}</p>
     </div>
   );
