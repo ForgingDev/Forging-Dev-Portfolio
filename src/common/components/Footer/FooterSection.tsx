@@ -7,14 +7,14 @@ type Props = {
 };
 const FooterSection: FC<Props> = ({ links, title }) => {
   return (
-    <div className="flex flex-col">
-      <h3 className="mb-3 text-lg font-medium">{title}</h3>
+    <div className="mx-auto flex w-1/3 flex-col text-center">
+      <h3 className="mb-3 font-medium md:text-lg">{title}</h3>
       <ul className="flex flex-col gap-y-2">
         {links.map((link) => (
           <Link
             key={link.title}
             href={link.url}
-            className="link text-sm text-zinc-400"
+            className="link text-xs text-zinc-400 md:text-sm"
           >
             {link.title}
           </Link>

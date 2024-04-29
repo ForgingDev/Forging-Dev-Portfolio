@@ -27,40 +27,72 @@ const Navbar = () => {
         )}
         <div
           className={cn(
-            "fixed right-full top-0 flex h-screen w-2/3 flex-col items-center justify-center gap-10 border-l-1 border-zinc-500 bg-off bg-opacity-95 text-xl shadow-md transition-all duration-500 md:static md:h-auto md:w-auto md:translate-y-0 md:flex-row md:gap-8 md:border-0 md:bg-transparent md:text-base",
+            "fixed right-full top-0 flex h-screen w-2/3 flex-col items-center justify-center gap-10 border-l-1 border-zinc-500 bg-off bg-opacity-95 shadow-md transition-all duration-500 md:static md:h-auto md:w-auto md:translate-y-0 md:flex-row md:gap-8 md:border-0 md:bg-transparent md:text-base",
             openedNavbar ? "right-0" : "-right-full",
           )}
         >
-          <Link className="link" href="/#home">
+          <Link
+            onClick={() => setOpenedNavbar(false)}
+            className="link"
+            href="/#home"
+          >
             Home
           </Link>
-          <Link className="link" href="/#about-us">
+          <Link
+            onClick={() => setOpenedNavbar(false)}
+            className="link"
+            href="/#about-us"
+          >
             About Us
           </Link>
-          <Link className="link" href="/#portfolio">
+          <Link
+            onClick={() => setOpenedNavbar(false)}
+            className="link"
+            href="/#portfolio"
+          >
             Portfolio
           </Link>
           <Dropdown
             label={
-              <Link className="link" href="/#services">
+              <Link
+                onClick={() => setOpenedNavbar(false)}
+                className="link"
+                href="/#services"
+              >
                 Services
               </Link>
             }
           >
-            <Link className="link" href="/services#web-development">
+            <Link
+              onClick={() => setOpenedNavbar(false)}
+              className="link"
+              href="/services#web-development"
+            >
               Web Development
             </Link>
-            <Link className="link" href="/services#online-stores">
+            <Link
+              onClick={() => setOpenedNavbar(false)}
+              className="link"
+              href="/services#online-stores"
+            >
               Online Stores
             </Link>
-            <Link className="link" href="/services#social-media">
+            <Link
+              onClick={() => setOpenedNavbar(false)}
+              className="link"
+              href="/services#social-media"
+            >
               Social Media Management
             </Link>
           </Dropdown>
-          <Link className="link" href="/faq">
+          <Link
+            onClick={() => setOpenedNavbar(false)}
+            className="link"
+            href="/faq"
+          >
             FAQ
           </Link>
-          <Link href="/contact">
+          <Link onClick={() => setOpenedNavbar(false)} href="/contact">
             <Button className="px-4 py-2 md:px-2.5 md:py-1">
               Let&apos;s Talk
             </Button>
