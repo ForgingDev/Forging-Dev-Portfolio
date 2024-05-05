@@ -3,6 +3,12 @@ import PageHeader from "@/common/components/PageHeader";
 import Image from "next/image";
 import Link from "next/link";
 
+export const metadata = {
+  title: "Our Services",
+  description:
+    "Discover a range of services tailored to elevate your digital presence",
+};
+
 const Services = () => {
   return (
     <div className="pb-[10vh]">

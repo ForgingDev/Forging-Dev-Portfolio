@@ -44,10 +44,10 @@ const Footer = () => {
                 title: "About us",
                 url: "/about-us",
               },
-              {
-                title: "Legal Notices",
-                url: "/legal",
-              },
+              // {
+              //   title: "Legal Notices",
+              //   url: "/legal",
+              // },
               {
                 title: "Terms & Conditions",
                 url: "/terms-and-conditions",

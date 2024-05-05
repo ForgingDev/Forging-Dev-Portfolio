@@ -21,10 +21,10 @@ const Knowledge = () => {
         alt="Knowledge"
         className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 transform"
       />
-      <h3 className="mx-auto mb-8 max-w-lg text-center text-xl font-bold leading-snug xs:mb-12 xs:text-3xl">
+      <h3 className="mx-auto mb-8 max-w-lg text-center text-xl font-bold leading-snug sm:mb-12 sm:text-3xl">
         Foundational Values: Our Guiding Principles and Beliefs.
       </h3>
-      <div className="grid grid-cols-2 justify-items-center gap-y-10 xs:gap-y-20 md:grid-cols-4">
+      <div className="grid grid-cols-2 justify-items-center gap-y-10 md:grid-cols-3 lg:grid-cols-4">
         <KnowledgeItem icon={<FaPalette />} title="Creativy" />
         <KnowledgeItem icon={<FaBitcoin />} title="Innovation" />
         <KnowledgeItem icon={<FaLockOpen />} title="Transparency" />
