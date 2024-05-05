@@ -23,7 +23,7 @@ const ServiceCard: FC<Props> = ({ description, image, title, link, soon }) => {
     >
       <div
         className={cn(
-          "flex h-full flex-col gap-y-6 rounded-md bg-off p-6",
+          "flex h-full flex-col gap-y-4 rounded-md bg-off p-3 xs:gap-y-6 xs:p-6",
           soon ? "opacity-50" : "opacity-100",
         )}
       >

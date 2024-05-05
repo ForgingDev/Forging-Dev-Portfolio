@@ -8,9 +8,11 @@ type Props = {
 };
 const PageHeader: FC<Props> = ({ description, title }) => {
   return (
-    <div className="relative left-1/2 mb-[5vh] flex h-[30vh] w-screen -translate-x-1/2 transform flex-col items-center justify-center rounded-full border-b-1 border-zinc-400 border-opacity-50 text-center">
-      <h1 className="z-10 mb-6 text-4xl font-semibold">{title}</h1>
-      <h2 className="z-10 max-w-lg text-xl text-zinc-200">{description}</h2>
+    <div className="relative left-1/2 mb-[5vh] flex h-[20vh] w-screen -translate-x-1/2 transform flex-col items-center justify-center rounded-full border-b-1 border-zinc-400 border-opacity-50 text-center sm:h-[30vh]">
+      <h1 className="z-10 mb-4 text-2xl font-semibold sm:text-4xl">{title}</h1>
+      <h2 className="z-10 max-w-sm text-base text-zinc-200 sm:max-w-lg sm:text-xl">
+        {description}
+      </h2>
       <Image
         src={Img}
         alt="Contact us"

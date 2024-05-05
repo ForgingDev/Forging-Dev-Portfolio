@@ -1,6 +1,13 @@
 import PageHeader from "@/common/components/PageHeader";
+import { Metadata } from "next";
 import FormSide from "./components/FormSide/FormSide";
 import InfoSide from "./components/InfoSide";
+
+export const metadata: Metadata = {
+  title: "Contact Us",
+  description:
+    "Start the conversation to established good relationship and business.",
+};
 
 const ContactUs = () => {
   return (

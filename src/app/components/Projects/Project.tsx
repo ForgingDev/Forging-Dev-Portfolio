@@ -32,18 +32,18 @@ const Project: FC<Props> = ({
       target="_blank"
       className="group relative cursor-pointer overflow-hidden rounded-lg border-2 border-zinc-200 border-opacity-15 shadow-md transition-all hover:border-primary hover:shadow-primary"
     >
-      <div className="via-dark-purple to-dark-purple rounded-t-md bg-gradient-to-br from-off p-4">
+      <div className="via-dark-purple to-dark-purple rounded-t-md bg-gradient-to-br from-off p-3">
         <div className="mb-1 text-sm font-bold uppercase text-secondary">
           {subtitle}
         </div>
-        <div className="text-2xl font-medium">{title}</div>
+        <div className="text-xl font-medium xs:text-2xl">{title}</div>
       </div>
       <Image
         src={image}
         alt={title}
         width={500}
         height={500}
-        className="h-[50vh] min-h-[400px] w-full overflow-hidden rounded-b-md object-cover object-center grayscale-[50%] group-hover:grayscale-0"
+        className="h-[30vh] min-h-[400px] w-full overflow-hidden rounded-b-md object-cover object-center grayscale-[50%] group-hover:grayscale-0 xs:h-[50vh]"
       />
       <div className="absolute left-0 top-[88px] z-0 h-full w-full rounded-lg bg-purple-900 opacity-20 transition-all duration-500 group-hover:opacity-0"></div>
       <div className="absolute -bottom-[9.9rem] border-t-1 border-zinc-200 border-opacity-15 bg-dark-purple bg-opacity-70 p-4 transition-all duration-500 hover:bottom-0">

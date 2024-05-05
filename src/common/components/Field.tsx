@@ -37,7 +37,10 @@ const Field: FC<Props> = ({
   return (
     <div className={cn("relative mb-3", wrapperClassName)}>
       {label && (
-        <label className="font-medium text-zinc-200" htmlFor={name}>
+        <label
+          className="text-sm font-medium text-zinc-200 md:text-base"
+          htmlFor={name}
+        >
           {label} {required && <span className="text-red-400">*</span>}
         </label>
       )}
@@ -68,7 +71,7 @@ const Field: FC<Props> = ({
             type={type}
             value={fieldValue ?? initialValue}
             className={cn(
-              "w-full rounded-md bg-dark-purple bg-opacity-50 p-2 text-zinc-200 shadow-sm transition-all focus:outline-none focus:ring-2 focus:ring-primary focus:ring-opacity-50",
+              "w-full rounded-md bg-dark-purple bg-opacity-50 px-2 py-1 text-zinc-200 shadow-sm transition-all focus:outline-none focus:ring-2 focus:ring-primary focus:ring-opacity-50 sm:p-2",
               {
                 [className || ""]: className,
                 "bg-red-300 bg-opacity-20": fieldError,

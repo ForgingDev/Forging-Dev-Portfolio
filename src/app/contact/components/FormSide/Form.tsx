@@ -16,20 +16,23 @@ const Form = () => {
     message: "",
   };
 
-  const handleSubmit = (
+  const handleSubmit = async (
     values: FormValuesType,
     setSubmitting: (isSubmitting: boolean) => void,
   ) => {
-    // Handle submit
+    await fetch("/api/send", { method: "POST", body: JSON.stringify(values) });
+
+    setSubmitting(false);
   };
 
   return (
     <Formik
       enableReinitialize
       validateOnChange={false}
+      validateOnBlur={true}
       initialValues={initialValues}
-      onSubmit={(values, { setSubmitting }) =>
-        handleSubmit(values, setSubmitting)
+      onSubmit={async (values, { setSubmitting }) =>
+        await handleSubmit(values, setSubmitting)
       }
       validationSchema={Yup.object().shape({
         name: Yup.string()
@@ -59,15 +62,16 @@ const Form = () => {
       })}
     >
       {({ isSubmitting, setFieldValue, values }) => (
-        <Formeek className="flex flex-col gap-y-4">
-          <div className="flex gap-4">
+        <Formeek className="flex flex-col gap-y-2 sm:gap-y-4">
+          <div className="flex flex-col gap-2 sm:flex-row sm:gap-4">
             <Field
               onChange={(val) => {
                 setFieldValue("name", val);
               }}
               name="name"
-              className="w-full bg-dark-purple bg-opacity-50 text-zinc-200"
+              className="bg-dark-purple bg-opacity-50 text-zinc-200"
               label="Name"
+              wrapperClassName="flex-1"
             />
             <Field
               onChange={(val) => {
@@ -76,9 +80,10 @@ const Form = () => {
               name="company"
               className="w-full"
               label="Company"
+              wrapperClassName="flex-1"
             />
           </div>
-          <div className="flex gap-4">
+          <div className="flex flex-col gap-2 sm:flex-row sm:gap-4">
             <Field
               onChange={(val) => {
                 setFieldValue("phone", val);
@@ -86,6 +91,7 @@ const Form = () => {
               name="phone"
               type="tel"
               label="Phone"
+              wrapperClassName="flex-1"
             />
             <Field
               onChange={(val) => {
@@ -94,6 +100,7 @@ const Form = () => {
               name="email"
               type="email"
               label="Email"
+              wrapperClassName="flex-1"
             />
           </div>
           <Field
@@ -113,7 +120,11 @@ const Form = () => {
               label="Message"
             />
           </div>
-          <Button disabled={isSubmitting} type="submit">
+          <Button
+            disabled={isSubmitting}
+            type="submit"
+            className={isSubmitting ? "bg-zinc-400" : ""}
+          >
             {isSubmitting ? "Sending..." : "Send Message"}
           </Button>
         </Formeek>

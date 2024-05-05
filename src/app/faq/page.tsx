@@ -1,5 +1,12 @@
 import PageHeader from "@/common/components/PageHeader";
+import { Metadata } from "next";
 import FAQSection from "./components/FAQSection";
+
+export const metadata: Metadata = {
+  title: "Frequently Asked Questions",
+  description:
+    "Find answers to common questions about our services and offerings.",
+};
 
 const FAQ = () => {
   return (

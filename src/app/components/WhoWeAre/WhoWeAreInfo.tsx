@@ -3,11 +3,11 @@ import Link from "next/link";
 
 const WhoWeAreInfo = () => {
   return (
-    <div className="flex flex-col gap-y-6">
+    <div className="flex flex-col gap-y-4 xs:gap-y-6">
       <div className="text-xs font-bold uppercase text-secondary">
         Who are we
       </div>
-      <h3 className="text-4xl font-bold leading-normal">
+      <h3 className="text-xl font-bold leading-normal xs:text-4xl">
         Crafting Digital Destiny: Project Valhalla Unleashes Innovation
       </h3>
       <p className="text-zinc-400">
