@@ -12,7 +12,7 @@ const Navbar = () => {
   const [openedNavbar, setOpenedNavbar] = useState(false);
 
   return (
-    <nav className="glass-effect fixed left-1/2 top-0 z-40 w-screen -translate-x-1/2 transform border-b-1 border-zinc-200 border-opacity-15 bg-dark-purple bg-opacity-75 py-2 font-semibold shadow-md">
+    <nav className="glass-effect fixed left-1/2 top-0 z-40 w-screen -translate-x-1/2 transform border-b-1 border-zinc-200 border-opacity-15 bg-dark-purple bg-opacity-75 p-2 font-semibold shadow-md">
       <div className="container mx-auto flex max-w-screen-xl items-center justify-between">
         <Logo />
         <Hamburger
