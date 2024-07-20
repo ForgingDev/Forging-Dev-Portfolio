@@ -78,21 +78,22 @@ const Services = () => {
           </div>
         </div>
         <div
-          id="social-media"
+          id="app-development"
           className="grid grid-cols-1 items-center gap-12 lg:grid-cols-2"
         >
           <div>
-            <h2 className="text-3xl font-medium">Social Media Management</h2>
+            <h2 className="text-3xl font-medium">Application Development</h2>
             <p className="my-4 text-zinc-300">
-              Elevate your brand&apos;s reach and engagement with our
-              comprehensive social media management service. We understand the
-              importance of building and maintaining a strong presence on social
-              platforms, which is why we offer tailored solutions to meet your
-              specific goals. From content creation and scheduling to community
-              management and analytics, we handle all aspects of your social
-              media strategy with expertise and efficiency. Let us help you tell
-              your brand&apos;s story, connect with your audience, and drive
-              meaningful results through social media.
+              Transform your innovative ideas into reality with our custom
+              application development service. Our experienced team of
+              developers specializes in creating unique applications that cater
+              to your specific requirements. Whether you&apos;re looking to
+              build a mobile app, a web app, or a software solution, we have the
+              expertise to bring your vision to life. From initial concept to
+              final launch, we work closely with you to ensure that your
+              application meets your goals and delivers an exceptional user
+              experience. Let us help you turn your ideas into successful
+              digital products.
             </p>
             <Link href="/contact">
               <Button className="w-fit">Get Started Today</Button>

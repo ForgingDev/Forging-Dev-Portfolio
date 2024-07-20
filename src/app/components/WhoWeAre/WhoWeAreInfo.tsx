@@ -8,10 +8,10 @@ const WhoWeAreInfo = () => {
         Who are we
       </div>
       <h3 className="text-xl font-bold leading-normal xs:text-4xl">
-        Crafting Digital Destiny: Project Valhalla Unleashes Innovation
+        Crafting Digital Destiny: Forging Dev Unleashes Innovation
       </h3>
       <p className="text-zinc-400">
-        At Project Valhalla, we&apos;re your digital architects, dedicated to
+        At Forging Dev, we&apos;re your digital architects, dedicated to
         delivering cutting-edge web development and digital solutions tailored
         to your vision. Let us help your brand thrive online.
       </p>

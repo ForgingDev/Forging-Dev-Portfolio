@@ -47,7 +47,7 @@ const PrivacyPolicy = () => {
 
         <FAQSection
           title="Contact Us"
-          description="If you have any questions or concerns about this Privacy Policy, please contact us at Project Valhalla."
+          description="If you have any questions or concerns about this Privacy Policy, please contact us at Forging Dev."
         />
       </div>
     </div>

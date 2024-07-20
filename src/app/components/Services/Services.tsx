@@ -1,4 +1,4 @@
-import { FaInstagram, FaLaptop, FaStore } from "react-icons/fa6";
+import { FaCode, FaLaptop, FaStore } from "react-icons/fa6";
 import ServiceCard from "./ServiceCard";
 
 const Services = () => {
@@ -9,7 +9,7 @@ const Services = () => {
           What we offer
         </h4>
         <h3 className="mx-auto mb-8 max-w-2xl text-2xl font-semibold md:text-4xl">
-          Where Strategy Meets Digital, Your Story Begins with Project Valhalla.
+          Where Strategy Meets Digital, Your Story Begins with Forging Dev.
         </h3>
       </div>
       <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -26,10 +26,10 @@ const Services = () => {
           link="/services/#online-stores"
         />
         <ServiceCard
-          title="Social Media Management"
-          description="Improve your brand's digital footprint with our social media services, covering content creation, community engagement, and growth strategies."
-          image={<FaInstagram />}
-          link="/services/seo"
+          title="Application Development"
+          description="Transform your ideas into reality with our custom application development services, designed to meet your unique requirements."
+          image={<FaCode />}
+          link="/services#app-development"
         />
       </div>
     </div>

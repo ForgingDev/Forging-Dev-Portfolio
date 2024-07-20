@@ -14,18 +14,18 @@ const AboutUs = () => {
         <div>
           <h2 className="text-3xl font-medium">Our Mission</h2>
           <p className="my-4 text-zinc-300">
-            At Project Valhalla, we prioritize quality, efficiency, and
-            transparency in every project we undertake. Specializing in web
-            development services and online store development, we ensure that
-            each solution is tailored to your unique needs. We don&apos;t just
-            build websites; we craft experiences. Our team listens attentively
-            to your requirements, customizing every aspect to align with your
-            vision. We believe in clear communication and keeping you informed
-            at every stage of the process. Unlike others, we don&apos;t
-            compromise on quality. We utilize the latest tools and technologies
-            to deliver results that exceed expectations. With [Business Name],
-            you can trust in our commitment to delivering high-quality,
-            efficient, and transparent solutions for your online business.
+            At Forging Dev, we prioritize quality, efficiency, and transparency
+            in every project we undertake. Specializing in web development
+            services and online store development, we ensure that each solution
+            is tailored to your unique needs. We don&apos;t just build websites;
+            we craft experiences. Our team listens attentively to your
+            requirements, customizing every aspect to align with your vision. We
+            believe in clear communication and keeping you informed at every
+            stage of the process. Unlike others, we don&apos;t compromise on
+            quality. We utilize the latest tools and technologies to deliver
+            results that exceed expectations. With Forging Dev, you can trust in
+            our commitment to delivering high-quality, efficient, and
+            transparent solutions for your online business.
           </p>
           <Button className="w-fit">
             <Link href="/contact">Contact Us</Link>
