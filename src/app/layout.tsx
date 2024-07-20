@@ -8,8 +8,8 @@ import { CSPostHogProvider } from "./providers";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Project Valhalla",
-  description: "Web Development & Online Services by Project Valhalla",
+  title: "Forging Dev",
+  description: "Web Development & Online Services by Forging Dev",
 };
 
 export default function RootLayout({

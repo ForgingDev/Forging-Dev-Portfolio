@@ -17,7 +17,7 @@ const Hero = () => {
         className="hero-image absolute -top-[69px] -z-10 h-full w-full transform object-cover object-center opacity-30"
       />
       <h3 className="mb-4 rounded-full border-2 border-secondary px-3 py-1 text-xs font-semibold uppercase xs:text-sm">
-        Welcome to Project Valhalla
+        Welcome to Forging Dev
       </h3>
       <h1 className="text-center text-3xl font-extrabold leading-tight xs:text-5xl md:text-6xl">
         Your Path to Digital <br /> Transformation

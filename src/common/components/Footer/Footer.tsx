@@ -19,8 +19,8 @@ const Footer = () => {
                 url: "/services#online-stores",
               },
               {
-                title: "Social Media Marketing",
-                url: "/services#social-media",
+                title: "Application Development",
+                url: "/services#app-development",
               },
             ]}
             title="Services"

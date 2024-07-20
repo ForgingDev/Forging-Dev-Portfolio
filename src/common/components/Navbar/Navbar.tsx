@@ -12,7 +12,7 @@ const Navbar = () => {
   const [openedNavbar, setOpenedNavbar] = useState(false);
 
   return (
-    <nav className="glass-effect fixed left-1/2 top-0 z-40 w-screen -translate-x-1/2 transform border-b-1 border-zinc-200 border-opacity-15 bg-dark-purple bg-opacity-75 p-3.5 font-semibold shadow-md">
+    <nav className="glass-effect fixed left-1/2 top-0 z-40 w-screen -translate-x-1/2 transform border-b-1 border-zinc-200 border-opacity-15 bg-dark-purple bg-opacity-75 py-2 font-semibold shadow-md">
       <div className="container mx-auto flex max-w-screen-xl items-center justify-between">
         <Logo />
         <Hamburger
@@ -27,7 +27,7 @@ const Navbar = () => {
         )}
         <div
           className={cn(
-            "fixed right-full top-0 flex h-screen w-2/3 flex-col items-center justify-center gap-10 border-l-1 border-zinc-500 bg-off bg-opacity-95 shadow-md transition-all duration-500 md:static md:h-auto md:w-auto md:translate-y-0 md:flex-row md:gap-8 md:border-0 md:bg-transparent md:text-base",
+            "fixed right-full top-0 flex h-screen w-2/3 flex-col items-center justify-center gap-10 border-l-1 border-zinc-500 bg-off bg-opacity-95 transition-all duration-500 md:static md:h-auto md:w-auto md:translate-y-0 md:flex-row md:gap-8 md:border-0 md:bg-transparent md:text-base",
             openedNavbar ? "right-0" : "-right-full",
           )}
         >
@@ -80,9 +80,9 @@ const Navbar = () => {
             <Link
               onClick={() => setOpenedNavbar(false)}
               className="link"
-              href="/services#social-media"
+              href="/services#app-development"
             >
-              Social Media Management
+              Application Development
             </Link>
           </Dropdown>
           <Link

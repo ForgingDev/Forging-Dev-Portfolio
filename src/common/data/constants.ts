@@ -1,1 +1,1 @@
-export const URL = "https://project-valhalla.vercel.app";
+export const URL = "https://www.forging-dev.com/";
