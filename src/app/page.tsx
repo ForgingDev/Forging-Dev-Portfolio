@@ -1,3 +1,4 @@
+import { Metadata } from "next";
 import Hero from "./components/Hero";
 import HowItWorks from "./components/HowItWorks/HowItWorks";
 import Knowledge from "./components/Knowledge/Knowledge";
@@ -6,6 +7,11 @@ import OurValue from "./components/OurValue/OurValue";
 import Projects from "./components/Projects/Projects";
 import Services from "./components/Services/Services";
 import WhoWeAre from "./components/WhoWeAre/WhoWeAre";
+
+export const metadata: Metadata = {
+  title: "Forging Dev",
+  description: "Web Development & Online Services by Forging Dev",
+};
 
 const Home = () => {
   return (
