@@ -34,10 +34,10 @@ const InfoSide = () => {
               Email Support
             </div>
             <Link
-              href="mailto:dimoiubogdan03@gmail"
+              href="mailto:forgingdev37@outlook.com"
               className="link text-zinc-400"
             >
-              dimoiubogdan03@gmail.com
+              forgingdev37@outlook.com
             </Link>
           </div>
         </div>
