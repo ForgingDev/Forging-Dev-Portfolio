@@ -11,8 +11,8 @@ const InfoSide = () => {
         Seamless Communication, Global Impact.
       </h3>
       <p className="text-sm text-zinc-400 md:text-base">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
-        luctus nec ullamcorper mattis, pulvinar dapibus leo.
+        We are here to help you with any questions you may have. Reach out to us
+        and we will respond as soon as possible.
       </p>
       <div className="h-px bg-zinc-500 bg-opacity-50" />
       <div className="flex flex-wrap items-center justify-between gap-4">
