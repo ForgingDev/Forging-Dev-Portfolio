@@ -3,7 +3,6 @@ import AppLayout from "@/common/layouts/AppLayout";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { CSPostHogProvider } from "./providers";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,9 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={cn(inter.className, "bg-dark-purple text-white")}>
-        <CSPostHogProvider>
-          <AppLayout>{children}</AppLayout>
-        </CSPostHogProvider>
+        <AppLayout>{children}</AppLayout>
       </body>
     </html>
   );
