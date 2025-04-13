@@ -6,9 +6,7 @@ import { FC } from "react";
 
 type Props = {
   client: string;
-  date: string;
   description: string;
-  duration: string;
   image: string | StaticImageData | StaticImport;
   link: string;
   subtitle: string;
@@ -17,9 +15,7 @@ type Props = {
 };
 const Project: FC<Props> = ({
   client,
-  date,
   description,
-  duration,
   image,
   link,
   subtitle,
@@ -55,14 +51,6 @@ const Project: FC<Props> = ({
           <div className="w-1/2">
             <div className="text-sm text-secondary">Type</div>
             <div>{type}</div>
-          </div>
-          <div className="w-1/2">
-            <div className="text-sm text-secondary">Date</div>
-            <div>{date}</div>
-          </div>
-          <div className="w-1/2">
-            <div className="text-sm text-secondary">Duration</div>
-            <div>{duration}</div>
           </div>
         </div>
         <div className="my-4 h-px w-full bg-white opacity-30" />

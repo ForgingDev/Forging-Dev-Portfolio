@@ -11,7 +11,7 @@ const HowItWorks = () => {
     <div>
       <div className="text-center">
         <h4 className="mb-4 text-sm font-bold uppercase text-secondary">
-          How it works
+          Our Process
         </h4>
         <h3 className="mx-auto mb-10 max-w-2xl text-2xl font-semibold xs:text-4xl">
           Unlock Results with Just 4 Simple Steps!
